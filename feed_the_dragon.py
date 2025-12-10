@@ -67,9 +67,9 @@ display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 # Set text
 # TODO:
 #   - Use your make_text function (or font.render directly) to create:
-#       * score_text showing "Score: " + current score
-#       * title_text showing "Feed the Dragon"
-#       * lives_text showing "Lives: " + current lives
+#       * score_text showing "Score: " + current score, with green color, dark green background color
+#       * title_text showing "Feed the Dragon", with green color, white background color
+#       * lives_text showing "Lives: " + current lives, with green color, and dark green background color
 #   - Get rects for each text surface using .get_rect()
 #   - Position:
 #       * score_rect at the top-left (e.g., (10, 10))
